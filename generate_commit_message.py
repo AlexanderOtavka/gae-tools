@@ -46,7 +46,7 @@ STATE = multi_key_dict({
     ('r', '3'): "Release",
     })
 args = multi_key_dict({
-    ("-V", "--version-file", 0): "version.txt",
+    ("-V", "--version-file", 0): "VERSION",
     ("-s", "--summary", 1): "summary.",
     })
 TEMPLATE = """V{version}, {summary}
